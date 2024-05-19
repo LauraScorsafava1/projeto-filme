@@ -1,0 +1,27 @@
+main {
+  padding-bottom: 4rem;
+  background-color: #836872;
+}
+main section h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 3rem;
+  color: white;
+}
+#div-lancamentos {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+}
+
+#div-lancamentos .div-filmes a img {
+  border-radius: 20px;
+  width: 500px;
+  height: 700px;
+}
+
+#div-lancamentos .div-filmes a img:hover {
+  transition: 1s;
+  width: 600px;
+  height: 800px;
+}

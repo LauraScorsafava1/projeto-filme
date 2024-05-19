@@ -1,0 +1,26 @@
+header {
+  margin: 0 auto;
+  background-color: #52445a;
+  padding: 1rem;
+}
+
+header nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+header nav li ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+header nav li ul a:hover {
+  color: palevioletred;
+  transition: 1s;
+}
+
+header nav li ul a img {
+  width: 50px;
+}

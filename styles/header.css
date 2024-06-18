@@ -24,3 +24,9 @@ header nav li ul a:hover {
 header nav li ul a img {
   width: 50px;
 }
+
+@media screen and (max-width: 768px) { 
+  header nav li {
+    flex-direction: column;
+  }
+}

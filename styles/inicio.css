@@ -22,6 +22,18 @@ main section h1 {
 
 #div-lancamentos .div-filmes a img:hover {
   transition: 1s;
-  width: 600px;
-  height: 800px;
+  width: 37.5rem;
+  height: 50rem;
 }
+
+@media screen and (max-width: 768px) { 
+  #div-lancamentos .div-filmes a img {
+  margin-left: 1.5rem;
+  width: 20rem;
+  height: 30rem;
+}
+#div-lancamentos { flex-direction: column;
+}
+
+}
+
